@@ -24,6 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aac29c19-7da3-483e-a2a2-6d5c8f392a42" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/buildDspLibs.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/buildDspLibs.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/buildRefLibs.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/buildRefLibs.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/runTest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/runTest.bat" afterDir="false" />
@@ -37,6 +40,11 @@
       <change beforePath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210C_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/axftobin.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210C_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/axftobin.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210E_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/TrueSTUDIO_elf2bin.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210E_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/TrueSTUDIO_elf2bin.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210E_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/axftobin.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210E_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/axftobin.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware.bin" beforeDir="false" afterPath="$PROJECT_DIR$/firmware.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware.elf" beforeDir="false" afterPath="$PROJECT_DIR$/firmware.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware.map" beforeDir="false" afterPath="$PROJECT_DIR$/firmware.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/main.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/STM32CubeF1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="oTvRUesr" />
@@ -90,23 +98,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5624667341056975" />
-      <entry key="MS500" value="3.6666493958088937" />
-      <entry key="S2" value="6.899507488542721" />
-      <entry key="S5" value="10.965619785450867" />
-      <entry key="S10" value="14.56142890490372" />
-      <entry key="S30" value="19.516339862384562" />
-      <entry key="S60" value="21.581661738668487" />
-      <entry key="M2" value="24.34250918445847" />
-      <entry key="M5" value="35.75998691048716" />
-      <entry key="M10" value="48.71927677524834" />
-      <entry key="M15" value="55.63643099952208" />
-      <entry key="M30" value="64.52881572655569" />
-      <entry key="H1" value="69.89742600000488" />
-      <entry key="H2" value="72.85068348647901" />
-      <entry key="H4" value="74.39999987384266" />
-      <entry key="D1" value="75.72974037125607" />
-      <entry key="W1" value="75.96130251954291" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000006598829356" />
+      <entry key="S10" value="1.0030447256842785" />
+      <entry key="S30" value="2.0722476349332064" />
+      <entry key="S60" value="6.481734348935223" />
+      <entry key="M2" value="17.139702779404594" />
+      <entry key="M5" value="56.36318257468912" />
+      <entry key="M10" value="105.51537755429821" />
+      <entry key="M15" value="134.90468878586688" />
+      <entry key="M30" value="176.27886715894647" />
+      <entry key="H1" value="203.31481634590975" />
+      <entry key="H2" value="218.86937204334123" />
+      <entry key="H4" value="227.22626582847096" />
+      <entry key="D1" value="234.5077344553475" />
+      <entry key="W1" value="235.78607123650582" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -128,23 +136,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4883876049671192" />
-      <entry key="MS500" value="3.5771754037795698" />
-      <entry key="S2" value="6.745301958337547" />
-      <entry key="S5" value="10.865277906332377" />
-      <entry key="S10" value="14.493333056746687" />
-      <entry key="S30" value="19.48172198017503" />
-      <entry key="S60" value="21.561499126777612" />
-      <entry key="M2" value="24.331468504800693" />
-      <entry key="M5" value="35.755056714887225" />
-      <entry key="M10" value="48.71656732546482" />
-      <entry key="M15" value="55.63453568653699" />
-      <entry key="M30" value="64.52780930656907" />
-      <entry key="H1" value="69.89690462871306" />
-      <entry key="H2" value="72.85041773977032" />
-      <entry key="H4" value="74.39986566381465" />
-      <entry key="D1" value="75.72971781089016" />
-      <entry key="W1" value="75.96129929184531" />
+      <entry key="MS100" value="4.291757525210608E-6" />
+      <entry key="MS500" value="0.08443588028347733" />
+      <entry key="S2" value="0.5390533618108038" />
+      <entry key="S5" value="0.7810036614856992" />
+      <entry key="S10" value="0.8867827510292494" />
+      <entry key="S30" value="2.02890587731286" />
+      <entry key="S60" value="6.450969936421674" />
+      <entry key="M2" value="17.11515128538481" />
+      <entry key="M5" value="56.34707021204617" />
+      <entry key="M10" value="105.50490463920856" />
+      <entry key="M15" value="134.8968962584833" />
+      <entry key="M30" value="176.2744485213552" />
+      <entry key="H1" value="203.3124464464309" />
+      <entry key="H2" value="218.86814223429428" />
+      <entry key="H4" value="227.22563904435498" />
+      <entry key="D1" value="234.5076282809977" />
+      <entry key="W1" value="235.78605602603983" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -153,38 +161,38 @@
     <option name="minorVersion" value="2.3.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3KMGqrXwbfTC89aSrHpnin9eHqp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CidrDebugProfileConversion": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/trinh/projects/embedded_os/weekly_hw/w1/main.cpp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/trinh/projects/embedded_os/weekly_hw/w4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Native Application.all">
     <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="w4" TARGET_NAME="all" CONFIG_NAME="all" version="1" RUN_TARGET_PROJECT_NAME="w4" RUN_TARGET_NAME="all">
       <method v="2">
@@ -206,11 +214,6 @@
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Native Application.all" />
       <item itemvalue="Native Application.flash" />
@@ -220,7 +223,7 @@
   </component>
   <component name="SelectedDebugProfileService"><![CDATA[{
   "profileIdByStamp": [],
-  "modificationCount": 2
+  "modificationCount": 10
 }]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

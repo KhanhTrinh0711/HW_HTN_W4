@@ -1,15 +1,18 @@
 #include "stm32f1xx_hal.h"
 
-#define LED_PA0_HALF_PERIOD_MS  5000U
-#define LED_PA1_HALF_PERIOD_MS   500U
-#define LED_PA2_HALF_PERIOD_MS    50U
+// Set tần số nháy LED
+#define LED_PA0_FREQUENCY_MILLIHZ  100U   // 0.1 Hz
+#define LED_PA1_FREQUENCY_MILLIHZ 1000U   // 1 Hz
+#define LED_PA2_FREQUENCY_MILLIHZ 10000U  // 10 Hz
+
+// Chia nửa chu kì nhấp nháy
+#define LED_HALF_PERIOD_MS(frequency_millihz) (500000U / (frequency_millihz))
 
 static void SystemClock_Config(void);
 static void GPIO_Init(void);
 static void Task_LED_PA0(void);
 static void Task_LED_PA1(void);
 static void Task_LED_PA2(void);
-static void Error_Handler(void);
 
 int main(void)
 {
@@ -53,7 +56,8 @@ static void Task_LED_PA0(void)
         last_toggle = now;
         initialized = 1U;
     }
-    else if ((uint32_t)(now - last_toggle) >= LED_PA0_HALF_PERIOD_MS)
+    else if ((uint32_t)(now - last_toggle) >=
+             LED_HALF_PERIOD_MS(LED_PA0_FREQUENCY_MILLIHZ))
     {
         HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
         last_toggle = now;
@@ -71,7 +75,8 @@ static void Task_LED_PA1(void)
         last_toggle = now;
         initialized = 1U;
     }
-    else if ((uint32_t)(now - last_toggle) >= LED_PA1_HALF_PERIOD_MS)
+    else if ((uint32_t)(now - last_toggle) >=
+             LED_HALF_PERIOD_MS(LED_PA1_FREQUENCY_MILLIHZ))
     {
         HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
         last_toggle = now;
@@ -89,7 +94,8 @@ static void Task_LED_PA2(void)
         last_toggle = now;
         initialized = 1U;
     }
-    else if ((uint32_t)(now - last_toggle) >= LED_PA2_HALF_PERIOD_MS)
+    else if ((uint32_t)(now - last_toggle) >=
+             LED_HALF_PERIOD_MS(LED_PA2_FREQUENCY_MILLIHZ))
     {
         HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_2);
         last_toggle = now;
@@ -109,11 +115,6 @@ static void SystemClock_Config(void)
     RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
     RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL9;
 
-    if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-    {
-        Error_Handler();
-    }
-
     RCC_ClkInitStruct.ClockType =
         RCC_CLOCKTYPE_HCLK |
         RCC_CLOCKTYPE_SYSCLK |
@@ -123,11 +124,6 @@ static void SystemClock_Config(void)
     RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
     RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
     RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
-
-    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
-    {
-        Error_Handler();
-    }
 }
 
 void SysTick_Handler(void)
@@ -135,11 +131,3 @@ void SysTick_Handler(void)
     HAL_IncTick();
 }
 
-static void Error_Handler(void)
-{
-    __disable_irq();
-
-    while (1)
-    {
-    }
-}
