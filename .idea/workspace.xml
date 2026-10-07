@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="w4" targetName="firmware.bin" />
+      <config projectName="w4" targetName="all" />
+      <config projectName="w4" targetName="flash" />
+      <config projectName="w4" targetName="firmware.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aac29c19-7da3-483e-a2a2-6d5c8f392a42" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/buildDspLibs.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/buildDspLibs.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/buildRefLibs.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/buildRefLibs.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/runTest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/runTest.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/Projects/ARM/arm_cortexM_math_Build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/Projects/ARM/arm_cortexM_math_Build.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/Projects/GCC/arm_cortexM_math_Build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/Projects/GCC/arm_cortexM_math_Build.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/Projects/IAR/arm_cortexM_math_Build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/DSP/Projects/IAR/arm_cortexM_math_Build.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/runTest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/runTest.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Middlewares/Third_Party/LwIP" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Middlewares/Third_Party/LwIP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Middlewares/Third_Party/LwIP/doc/doxygen/generate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Middlewares/Third_Party/LwIP/doc/doxygen/generate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210C_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/TrueSTUDIO_elf2bin.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210C_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/TrueSTUDIO_elf2bin.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210C_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/axftobin.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210C_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/axftobin.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210E_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/TrueSTUDIO_elf2bin.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210E_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/TrueSTUDIO_elf2bin.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210E_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/axftobin.bat" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeF1/Projects/STM3210E_EVAL/Applications/IAP/IAP_Binary_Template/Utilities/axftobin.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/STM32CubeF1" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="oTvRUesr" />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="w4" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="w4" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5624667341056975" />
+      <entry key="MS500" value="3.6666493958088937" />
+      <entry key="S2" value="6.899507488542721" />
+      <entry key="S5" value="10.965619785450867" />
+      <entry key="S10" value="14.56142890490372" />
+      <entry key="S30" value="19.516339862384562" />
+      <entry key="S60" value="21.581661738668487" />
+      <entry key="M2" value="24.34250918445847" />
+      <entry key="M5" value="35.75998691048716" />
+      <entry key="M10" value="48.71927677524834" />
+      <entry key="M15" value="55.63643099952208" />
+      <entry key="M30" value="64.52881572655569" />
+      <entry key="H1" value="69.89742600000488" />
+      <entry key="H2" value="72.85068348647901" />
+      <entry key="H4" value="74.39999987384266" />
+      <entry key="D1" value="75.72974037125607" />
+      <entry key="W1" value="75.96130251954291" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4883876049671192" />
+      <entry key="MS500" value="3.5771754037795698" />
+      <entry key="S2" value="6.745301958337547" />
+      <entry key="S5" value="10.865277906332377" />
+      <entry key="S10" value="14.493333056746687" />
+      <entry key="S30" value="19.48172198017503" />
+      <entry key="S60" value="21.561499126777612" />
+      <entry key="M2" value="24.331468504800693" />
+      <entry key="M5" value="35.755056714887225" />
+      <entry key="M10" value="48.71656732546482" />
+      <entry key="M15" value="55.63453568653699" />
+      <entry key="M30" value="64.52780930656907" />
+      <entry key="H1" value="69.89690462871306" />
+      <entry key="H2" value="72.85041773977032" />
+      <entry key="H4" value="74.39986566381465" />
+      <entry key="D1" value="75.72971781089016" />
+      <entry key="W1" value="75.96129929184531" />
+    </decayedShown>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="2.3.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3KMGqrXwbfTC89aSrHpnin9eHqp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CidrDebugProfileConversion": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/trinh/projects/embedded_os/weekly_hw/w1/main.cpp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Native Application.all">
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="w4" TARGET_NAME="all" CONFIG_NAME="all" version="1" RUN_TARGET_PROJECT_NAME="w4" RUN_TARGET_NAME="all">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="firmware.bin" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="w4" TARGET_NAME="firmware.bin" CONFIG_NAME="firmware.bin" version="1" RUN_TARGET_PROJECT_NAME="w4" RUN_TARGET_NAME="firmware.bin">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="firmware.elf" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="w4" TARGET_NAME="firmware.elf" CONFIG_NAME="firmware.elf" version="1" RUN_TARGET_PROJECT_NAME="w4" RUN_TARGET_NAME="firmware.elf">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="flash" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="w4" TARGET_NAME="flash" CONFIG_NAME="flash" version="1" RUN_TARGET_PROJECT_NAME="w4" RUN_TARGET_NAME="flash">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Native Application.all" />
+      <item itemvalue="Native Application.flash" />
+      <item itemvalue="Native Application.firmware.bin" />
+      <item itemvalue="Native Application.firmware.elf" />
+    </list>
+  </component>
+  <component name="SelectedDebugProfileService"><![CDATA[{
+  "profileIdByStamp": [],
+  "modificationCount": 2
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aac29c19-7da3-483e-a2a2-6d5c8f392a42" name="Changes" comment="" />
+      <created>1791360220715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791360220715</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
